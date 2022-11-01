@@ -13,7 +13,7 @@ Walkthrough for deploying a simple Dataflow Pipeline using Google-Provided Templ
     - Select Dataflow template as BigQuery export to parquet (via Storage API) - A pipeline to export a BigQuery table into Parquet files using the BigQuery Storage API.
     <!-- UPDATE THIS TO NOT USE THE PUBLIC DATASET AS IT WILL FAIL -->
     - Enter BigQuery table to export (e.g. `bigquery-public-data:new_york.tlc_yellow_trips_2015`)
-    - Select Temporary location - Path and filename prefix for writing output files. (e.g. `gs://66degrees_dataflow_workshop_demo/demo.parquet`)
+    - Select Temporary location - Path and filename prefix for writing output files. (e.g. `gs://66degrees_dataflow_workshop_demo/dataflow_template_output/output`)
 
 ![Screenshot](images/job.png)   
 
