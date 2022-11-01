@@ -1,0 +1,7 @@
+syntax = "proto3";
+message Clickstream {
+  int32 user_id = 1;
+  // unix/epoch timestamp
+  int32 timestamp = 2;
+  string state_code = 3;
+}
