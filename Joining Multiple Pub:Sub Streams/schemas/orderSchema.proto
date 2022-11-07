@@ -1,8 +1,0 @@
-syntax = "proto3";
-message Orders {
-  string state_code = 1;
-  // unix/epoch timestamp
-  int32 timestamp = 2;
-  int32 item_count = 3;
-  float total_sale_amount = 4;
-}

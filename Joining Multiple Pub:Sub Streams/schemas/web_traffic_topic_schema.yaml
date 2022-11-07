@@ -1,0 +1,20 @@
+---
+  - column: event_timestamp
+    description: Pub/Sub event timestamp
+    mode: REQUIRED
+    type: TIMESTAMP
+  -
+    column: state_code
+    description: state_code
+    mode: REQUIRED
+    type: STRING
+  -
+    column: timestamp
+    description: Transaction time string
+    mode: NULLABLE
+    type: STRING
+  -
+    column: user_id
+    description: user_id
+    mode: NULLABLE
+    type: STRING
