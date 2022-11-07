@@ -1,0 +1,26 @@
+---
+  -
+    column: event_timestamp
+    description: Pub/Sub event timestamp
+    mode: REQUIRED
+    type: TIMESTAMP
+  -
+    column: state_code
+    description: state_code
+    mode: REQUIRED
+    type: STRING
+  -
+    column: timestamp
+    description: "Transaction time string"
+    mode: NULLABLE
+    type: STRING
+  -
+    column: item_count
+    description: item_count
+    mode: NULLABLE
+    type: INT64
+  -
+    column: total_sale_amount
+    description: total_sale_amount
+    mode: NULLABLE
+    type: NUMERIC
